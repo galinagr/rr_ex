@@ -4,7 +4,10 @@
     "main": "index.js",
     "author": "GG",
     "license": "MIT",
-    "engines": { "node": ">=8.1" },
+    "engineStrict": true,
+    "engines": {
+        "node": "8.1.3"
+    },
     "scripts": {
         "serve": "live-server public/",
         "build:dev": "webpack",
