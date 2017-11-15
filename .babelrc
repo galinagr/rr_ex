@@ -9,11 +9,6 @@
         "transform-class-properties",
         "transform-object-rest-spread",
         "transform-replace-object-assign"
-    ],
+    ]
 
-    "env": {
-        "production": {
-            "plugins": ["transform-remove-console"]
-        }
-    }
 }
