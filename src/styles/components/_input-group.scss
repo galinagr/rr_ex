@@ -1,0 +1,25 @@
+    .input-group {
+    //   align-items: center;
+    display: flex;
+    margin-bottom: $m-size;
+    flex-direction: column;
+    @media (min-width: $desktop-breakpoint) {
+        flex-direction: row;
+        margin-bottom: $l-size;
+    } //  justify-content: space-between;
+    //  padding: $s-size 0;
+}
+
+.input-group__item {
+    margin-bottom: $s-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin-right: $s-size;
+        margin: 0 $s-size 0 0;
+    }
+  }
+  .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        block-size: $xl-size;
+    }
